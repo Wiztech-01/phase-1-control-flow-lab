@@ -1,32 +1,33 @@
 function scuberGreetingForFeet(travel){
   // Write your code here!
-  if( travel <= 800 ){
-    return ''Standard Price''
+  if( ride <= 400 ){
+    return 'This one is on me!'
   }
-  else if (travel <= 5000){
-    return 'Bookings to be made early.'
+  else if (ride <= 2500){
+    return 'I will gladly take your thirty bucks.'
   }
-  else if (travel > 5000){
-    return 'Hiked prices.'
+  else if (ride > 2500){
+    return 'No can do.'
   }
 }
 
-function ternaryCheckCity(City){
+function ternaryCheckCity(city){
   // Write your code here!
-  if (City === 'Kisumu'){
-    return 'yes please!.'
+  if (city === 'NYC'){
+    return 'Ok, sounds good.'
   }else{
-    return 'No thank you!.'
+    return 'No go.'
   }
 }
 
 function switchOnCharmFromTip(tip){
   // Write your code here!
-  if (tip === 'client tips'){
+  if (tip === 'generous'){
     return 'Thank you so much.'
-  }else if(tip === 'no client tips'){
-    return 'Thank you! Welcome again!.'
+  }else if(tip === 'not as generous'){
+    return 'Thank you.'
   }else{
-    return 'BHave a good day.'
+    return 'Bye.'
   }
+
 }
