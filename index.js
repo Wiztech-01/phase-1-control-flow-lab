@@ -1,4 +1,4 @@
-function scuberGreetingForFeet(travel){
+function scuberGreetingForFeet(ride){
   // Write your code here!
   if( ride <= 400 ){
     return 'This one is on me!'
